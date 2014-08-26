@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lockerz</title>
+	<link rel="stylesheet" media="all" href="vendor/mocha.css">
+</head>
+<body>
+	<div id="mocha"><p></p></div>
+	<div id="messages"></div>
+	<div id="fixtures"></div>
+	<script src="vendor/mocha.js"></script>
+	<script src="vendor/chai.js"></script>
+	<script src="vendor/sinon-1.10.3.js"></script>
+	<script src="lockerz.js"></script>
+	<script type="text/javascript">mocha.setup("bdd");</script>
+	<script src="lockerz_test.js"></script>
+	<script type="text/javascript">mocha.run();</script>
+</body>
+</html>
+
